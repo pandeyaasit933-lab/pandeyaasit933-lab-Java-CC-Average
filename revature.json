@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/AverageTest.java",
+      "testCases": [
+        {
+          "methodName": "averageTest1",
+          "label": "Test with positive integers resulting in a whole number average",
+          "description": "Verifies that the average of the array {1, 3, 1, 3} is correctly calculated as 2.0."
+        },
+        {
+          "methodName": "averageTest2",
+          "label": "Test with positive integers resulting in a decimal average",
+          "description": "Verifies that the average of the array {1, 2} is correctly calculated as 1.5."
+        },
+        {
+          "methodName": "averageTest3",
+          "label": "Test with a sequence of positive integers",
+          "description": "Verifies that the average of the array {1, 2, 3} is correctly calculated as 2.0."
+        },
+        {
+          "methodName": "averageTest4",
+          "label": "Test with mixed positive and negative integers resulting in zero average",
+          "description": "Verifies that the average of the array {4, -4} is correctly calculated as 0.0."
+        }
+      ]
+    }
+  ]
+}
